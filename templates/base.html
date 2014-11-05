@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% block meta %}{% endblock %}
+  {% block scripts %}{% endblock %}
+  <style>{% include 'bootstrap.css' %}</style>
+  <style>{% include 'styles.css' %}</style>
+</head>
+<body>
+{% block content %}
+  <p>Default content to be displayed</p>
+{% endblock content %}
+{% block footer %}{% endblock %}
+</body>
+</html>

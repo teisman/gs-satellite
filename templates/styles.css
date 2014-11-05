@@ -1,0 +1,125 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+.intro-header {
+    background: url("https://unsplash.imgix.net/uploads/1412825195419af52b492/8bc72ed7?q=75&fm=jpg&s=4f35827a6dc766d393fc51fce493d85d") no-repeat scroll center center / cover rgba(0, 0, 0, 0);
+    color: #F8F8F8;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+.intro-message {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    position: relative;
+}
+.intro-message > h1 {
+    font-size: 5em;
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.intro-divider {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid #F8F8F8;
+    width: 400px;
+}
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+@media (max-width: 767px) {
+.intro-message {
+    padding-bottom: 15%;
+}
+.intro-message > h1 {
+    font-size: 3em;
+}
+ul.intro-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+}
+ul.intro-social-buttons > li:last-child {
+    margin-bottom: 0;
+}
+.intro-divider {
+    width: 100%;
+}
+}
+.network-name {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.content-section-a {
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+.content-section-b {
+    border-bottom: 1px solid #E7E7E7;
+    border-top: 1px solid #E7E7E7;
+    padding: 50px 0;
+}
+.section-heading {
+    margin-bottom: 30px;
+}
+.section-heading-spacer {
+    border-top: 3px solid #E7E7E7;
+    float: left;
+    width: 200px;
+}
+.banner {
+    background: url("https://unsplash.imgix.net/reserve/m6rT4MYFQ7CT8j9m2AEC_JakeGivens%20-%20Sunset%20in%20the%20Park.JPG?q=75&fm=jpg&s=0be046e174fb7a1c83e882cef651959a") no-repeat scroll center center / cover rgba(0, 0, 0, 0);
+    color: #F8F8F8;
+    padding: 100px 0;
+}
+.banner h2 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.banner ul {
+    margin-bottom: 0;
+}
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+@media (max-width: 1199px) {
+ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+}
+}
+@media (max-width: 767px) {
+.banner h2 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+ul.banner-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+}
+ul.banner-social-buttons > li:last-child {
+    margin-bottom: 0;
+}
+}
+footer {
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+p.copyright {
+    margin: 15px 0 0;
+}
+
