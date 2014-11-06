@@ -2,3 +2,5 @@
 build/
 sites-enabled/
 Dockerfile
+domains.txt
+
