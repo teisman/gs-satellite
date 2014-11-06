@@ -2,9 +2,9 @@
 
 {% block meta %}
 <meta charset="utf-8">
-<meta name="description" content="{{ page.metadescription }}">
-<meta name="keywords" content="{{ page.metakeywords }}">
-<title>{{ page.metatitle }}</title>
+<meta name="description" content="{{ page.m.description }}">
+<meta name="keywords" content="{{ page.m.keywords }}">
+<title>{{ page.m.title }}</title>
 {% endblock %}
 
 {% block scripts %}
@@ -21,41 +21,10 @@
 {% endblock %}
 
 {% block content %}
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="http://www.gigstarter.nl">Gigstarter</a>
-      </div>
-    </div>
-  </nav>
-  <div class="intro-header">
-    <div class="container">
-      <div class="col-lg-12">
-        <div class="intro-message">
-          <h1>{{ page.title }}</h1>
-          <hr class="intro-divider">
-          <h3>{{ page.subtitle }}</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="content-section-a">
-    <div class="container">
-      {{ page.html|safe }}
-    </div>
-  </div>
+  {{ page.html|safe }}
 {% endblock content %}
 
 {% block footer %}
-  <div class="banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h2>Vraag vrijblijvend een offerte aan</h2>
-        </div>
-      </div>
-    </div>
-  </div>
   <footer>
     <div class="container">
       <div class="row">

@@ -11,7 +11,7 @@ body, h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 .intro-header {
-    background: url("https://unsplash.imgix.net/uploads/1412825195419af52b492/8bc72ed7?q=75&fm=jpg&s=4f35827a6dc766d393fc51fce493d85d") no-repeat scroll center center / cover rgba(0, 0, 0, 0);
+    background: url("{{ page.background }}") no-repeat scroll center center / cover rgba(0, 0, 0, 0);
     color: #F8F8F8;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -76,44 +76,6 @@ ul.intro-social-buttons > li:last-child {
     border-top: 3px solid #E7E7E7;
     float: left;
     width: 200px;
-}
-.banner {
-    background: url("https://unsplash.imgix.net/reserve/m6rT4MYFQ7CT8j9m2AEC_JakeGivens%20-%20Sunset%20in%20the%20Park.JPG?q=75&fm=jpg&s=0be046e174fb7a1c83e882cef651959a") no-repeat scroll center center / cover rgba(0, 0, 0, 0);
-    color: #F8F8F8;
-    padding: 100px 0;
-}
-.banner h2 {
-    font-size: 3em;
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-.banner ul {
-    margin-bottom: 0;
-}
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
-}
-@media (max-width: 1199px) {
-ul.banner-social-buttons {
-    float: left;
-    margin-top: 15px;
-}
-}
-@media (max-width: 767px) {
-.banner h2 {
-    font-size: 3em;
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-ul.banner-social-buttons > li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-}
-ul.banner-social-buttons > li:last-child {
-    margin-bottom: 0;
-}
 }
 footer {
     background-color: #F8F8F8;

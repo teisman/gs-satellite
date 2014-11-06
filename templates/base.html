@@ -7,9 +7,25 @@
   <style>{% include 'styles.css' %}</style>
 </head>
 <body>
-{% block content %}
-  <p>Default content to be displayed</p>
-{% endblock content %}
-{% block footer %}{% endblock %}
+  {% block nav %}
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="http://www.gigstarter.nl">{{ page.brand }}</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          {% for link in page.nav %}
+          <li{% if link.active %} class="active"{% endif %}>
+            <a href="{{ link.href }}">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+  {% endblock %}
+  {% block content %}{% endblock %}
+  {% block footer %}{% endblock %}
 </body>
 </html>

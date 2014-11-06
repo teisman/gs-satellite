@@ -1,9 +1,19 @@
-metatitle: Bedrijfsevenement in Amsterdam
-metadescription: Wil je een bedrijfsevenement organiseren in Amsterdam? Bekijk de mogelijkheden op bedrijfsevenement-amsterdam.nl!
-metakeywords: bedrijf, evenement, feest, bedrijfsevenement, amsterdam
+sitename: Gigstarter
+meta:
+    title: metatitle
+    description: metadescription
+    keywords: meta, keywords, metakeywords
 gatrackingid: gatrackingid
-title: Bedrijfsevenement in Amsterdam
-subtitle: Met live muziek is elke evenement een feest!
+title: title
+subtitle: subtitle
+background: https://unsplash.imgix.net/uploads/1412825195419af52b492/8bc72ed7?q=75&fm=jpg&s=4f35827a6dc766d393fc51fce493d85d
+nav:
+    - title: DJ
+      href: /djs
+      active: false
+    - title: Bands
+      href: /bands
+      active: false
 
 ## Boekingskantoor voor en door Muzikanten.
 
@@ -13,4 +23,3 @@ Artiesten willen meer optreden, en wie wilt er nou geen leuke en passende live m
 
 Met ons initiatief willen wij aan elk podium een passend optreden kunnen bieden, of het podium nu een kroeg, een evenement, of je eigen huiskamer is. Feest, bruiloft, bedrijfsborrel of samenkomst zoals een begrafenis; live muziek is deel van ons leven en moet makkelijk te vinden, te vergelijken en in te huren zijn. Door een open platform aan te bieden en allerlei acts in een lijst te ordenen creëren wij een transparante markt. Wie iets wilt boeken weet waar hij of zij aan toe
 is door op onze website door alle te boeken opties te bladeren. Een live Band, DJ, Ensemble of Solo-artiest boeken is nog nooit zo makkelijk geweest.
-

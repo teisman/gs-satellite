@@ -1,9 +1,19 @@
-metatitle: Bedrijfsborrel in Amsterdam
-metadescription: Wil je een bedrijfsborrel organiseren in Amsterdam? Bekijk de mogelijkheden op bedrijfsborrel-amsterdam.nl!
-metakeywords: bedrijf, borrel, feest, bedrijfsborrel, amsterdam
+sitename: Gigstarter
+meta:
+    title: metatitle
+    description: metadescription
+    keywords: meta, keywords, metakeywords
 gatrackingid: gatrackingid
-title: Bedrijfsborrel in Amsterdam
-subtitle: Met live muziek is elke bedrijfsborrel een feest!
+title: title
+subtitle: subtitle
+background: https://unsplash.imgix.net/uploads/1412825195419af52b492/8bc72ed7?q=75&fm=jpg&s=4f35827a6dc766d393fc51fce493d85d
+nav:
+    - title: DJ
+      href: /djs
+      active: false
+    - title: Bands
+      href: /bands
+      active: false
 
 ## Boekingskantoor voor en door Muzikanten.
 
