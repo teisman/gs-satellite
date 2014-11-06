@@ -7,8 +7,6 @@ from flask import Flask, render_template
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
 
-from domains import DOMAINS
-
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'

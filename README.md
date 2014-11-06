@@ -41,7 +41,7 @@ Application to be used with the following Dockerfile
       python nginx-conf.py build && \
       mkdir -p /etc/nginx/sites-enabled &&\
       cp ./sites-enabled/* /etc/nginx/sites-available/ && \
-      ln -s /etc/nginx/sites-available/* /etc/nginx/sites-enabled/ && \
+      ln -sf /etc/nginx/sites-available/* /etc/nginx/sites-enabled/ && \
       # rm /etc/nginx/sites-enabled/default && \
       # rm /etc/nginx/sites-available/default && \
       python app.py build && \
